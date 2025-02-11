@@ -9,6 +9,7 @@ students.append(Student("Lena", "3456", 43))
 students.append(Student("Tina", "4567", 8))
 
 itp = Course("Introduction to Programming", "itp1", 5)
+aap = Course("Advanced application programming", "aap", 5)
 
 completed = []
 for student in students:
@@ -17,4 +18,4 @@ for student in students:
 
 for course in completed:
     print(course.student.name)
-    #print(course.course.name)
+    print(course.course.name)
