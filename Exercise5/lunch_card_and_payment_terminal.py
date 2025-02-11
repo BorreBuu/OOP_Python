@@ -88,16 +88,16 @@ if __name__ == "__main__":
     #Part 3
     """ exactum = PaymentTerminal()
 
-    change = exactum.eat_lunch(10)
+    change = exactum.eat_ordinary10)
     print("The change returned was", change)
 
     card = LunchCard(7)
 
-    result = exactum.eat_special_lunchcard(card)
+    result = exactum.eat_luxury_lunchcard(card)
     print("Payment successful:", result)
-    result = exactum.eat_special_lunchcard(card)
+    result = exactum.eat_luxury_lunchcard(card)
     print("Payment successful:", result)
-    result = exactum.eat_lunch_lunchcard(card)
+    result = exactum.eat_ordinary_lunchcard(card)
     print("Payment successful:", result)
 
     print("Funds available at the terminal:", exactum.funds)
@@ -110,13 +110,13 @@ if __name__ == "__main__":
     card = LunchCard(2)
     print(f"Card balance is {card.balance} euros")
 
-    result = exactum.eat_special_lunchcard(card)
+    result = exactum.eat_luxury_lunchcard(card)
     print("Payment successful:", result)
 
     exactum.deposit_money_on_card(card, 100)
     print(f"Card balance is {card.balance} euros")
 
-    result = exactum.eat_special_lunchcard(card)
+    result = exactum.eat_luxury_lunchcard(card)
     print("Payment successful:", result)
     print(f"Card balance is {card.balance} euros")
 
