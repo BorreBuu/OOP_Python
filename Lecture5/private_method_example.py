@@ -1,11 +1,11 @@
 class Recipient:
     def __init__(self, name: str, email: str):
         self.__name = name
-        if self.__check_email(email):
+        """if self.__check_email(email):
             self.__email = email
         else:
-            raise ValueError("The email address is not valid")
-        #self.email = email
+            raise ValueError("The email address is not valid")"""
+        self.email = email
 
     def __check_email(self, email: str):
         # A simple check: the address must be over 5 characters long 
@@ -25,5 +25,5 @@ class Recipient:
     
 peter = Recipient("Peter Emailer", "peter@example.com")
 #peter.__check_email("someone@example.com")
-may = Recipient("May Emailer", "m@em.c")
+may = Recipient("May Emailer", "m@e.c")
 print(may.email)

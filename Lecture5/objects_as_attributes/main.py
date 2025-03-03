@@ -9,7 +9,7 @@ students.append(Student("Lena", "3456", 43))
 students.append(Student("Tina", "4567", 8))
 
 itp = Course("Introduction to Programming", "itp1", 5)
-aap = Course("Advanced application programming", "aap", 5)
+#aap = Course("Advanced application programming", "aap", 5)
 
 completed = []
 for student in students:

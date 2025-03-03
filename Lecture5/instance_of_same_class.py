@@ -6,10 +6,11 @@ class Person:
     # NB: type hints must be enclosed in quotation marks if the parameter
     # is of the same type as the class itself!
     def older_than(self, another: "Person"):
+        """
         if self.year_of_birth < another.year_of_birth:
             return True
         else:
-            return False
+            return False"""
         return self.year_of_birth < another.year_of_birth
 
 #function

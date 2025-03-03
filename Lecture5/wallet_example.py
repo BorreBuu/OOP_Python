@@ -14,8 +14,8 @@ class Wallet:
     def money(self, money):
         if money >= 0:
             self.__money = money
-        #else:
-            #raise ValueError("The amount must not be below zero")
+        else:
+            raise ValueError("The amount must not be below zero")
         
 wallet = Wallet()
 print(wallet.money)

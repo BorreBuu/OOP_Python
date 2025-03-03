@@ -38,6 +38,7 @@ ca.add_player(Player("Andy", 1))
 player1 = ca.find_player("Andy")
 print(player1)
 player2 = ca.find_player("Charlie")
+
 if player2 is not None:
     print(f"Goals by Charlie: {player2.goals}")
 else:

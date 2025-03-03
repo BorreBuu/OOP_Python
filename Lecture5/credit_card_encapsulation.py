@@ -26,6 +26,7 @@ card2 = CreditCard("654321","Scrooge McDuck", 1000)
 print(card2.name)
 #print(card2.__number)
 
+
 #testing the encapsulated balance attribute:
 card3 = CreditCard("321654", "Bertha Filthy-Riches", 5000)
 print(card3.retrieve_balance())

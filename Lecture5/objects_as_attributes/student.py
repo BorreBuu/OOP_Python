@@ -8,7 +8,7 @@ class Student:
         if study_credits > 0:
             self.credits += study_credits
 
-
+"""
 print("Sally")
 sally = Student("Sally Student", "12345", 0)
 sally.add_credits(5)
@@ -16,7 +16,7 @@ sally.add_credits(5)
 sally.add_credits(10)
 print("Study credits:", sally.credits)
 
-"""
+
 print("Mary")
 mary = Student("Mary AlsoStudent", "23456", 0)
 mary.credits = -100
