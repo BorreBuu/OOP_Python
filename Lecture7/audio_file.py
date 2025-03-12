@@ -6,7 +6,7 @@ class AudioFile:
         self.filename = filename
 
 class MP3File(AudioFile):
-    ext = "MP3"
+    ext = "mp3"
     def play(self):
         print("playing {} as mp3".format(self.filename))
 
@@ -24,7 +24,7 @@ if __name__ == "__main__":
     ogg = OggFile("myfile.ogg")
     ogg.play()
 
-    #mp3 = MP3File("myfile.mp3")
-    #mp3.play()
+    mp3 = MP3File("myfile.mp3")
+    mp3.play()
 
-    #not_an_mp3 = MP3File("myfile.ogg")
+    not_an_mp3 = MP3File("myfile.ogg")

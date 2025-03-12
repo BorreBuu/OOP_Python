@@ -13,3 +13,9 @@ class Teacher:
         self.email = email
         self.room = room
         self.teaching_years = teaching_years
+
+def update_student_email(o: Student):
+    o.email = o.email.replace(".com", ".edu")
+
+def update_teacher_email(o: Teacher):
+    o.email = o.email.replace(".com", ".edu")

@@ -23,7 +23,7 @@ class Bookshelf(BookContainer):
     """ This class models a shelf for books """
 
     def __init__(self):
-       super().__init__() #calls the constructor of the base class
+       super().__init__() #calls the constructor of the base class, no need for self argument!
 
     def add_book(self, book: Book, location: int): #overrides the original
        self.books.insert(location, book)

@@ -17,7 +17,7 @@ student3 = Student("Perry Student", ["ACiP"])
 student1.add_course("ItP")
 student1.add_course("ACiP")
 
-student3.add_course("ItP")
+#student3.add_course("ItP")
 
 print(student1.completed_courses)
 print(student2.completed_courses)

@@ -42,5 +42,5 @@ class Registration:
 if __name__ == "__main__":
     registration = Registration("Mary Motorist", "Volvo", "1992", "abc-123")
 
-    if Registration.license_plate_valid("xyz-789"):
-        print("This is a valid license plate!")
+    #if Registration.license_plate_valid("xyz-789"):
+        #print("This is a valid license plate!")
