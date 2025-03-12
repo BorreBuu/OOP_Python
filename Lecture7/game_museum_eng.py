@@ -11,5 +11,5 @@ class GameWarehouse:
     def lisaa_peli(self, game: ComputerGame):
         self.__games.append(game)
  
-    def anna_pelit(self):
+    def get_games(self):
         return self.__games
