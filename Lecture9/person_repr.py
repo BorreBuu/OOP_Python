@@ -8,11 +8,11 @@ class Person:
     representation of the string. This is necessary to include the ' characters in the result.
     """
     
-    def __repr__(self):
-        return f"Person({repr(self.name)}, {self.age})"
+    """def __repr__(self):
+        return f"Person({repr(self.name)}, {self.age})"""
     
-    """ def __str__(self):
-        return f"{self.name} ({self.age} years)" """
+    def __str__(self):
+        return f"{self.name} ({self.age} years)"
     
 person1 = Person("Anna", 25)
 person2 = Person("Peter", 99)

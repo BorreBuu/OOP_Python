@@ -15,8 +15,8 @@ class Product:
         return self.__name
 
     def __gt__(self, another_product):
-        return self.price > another_product.price
-        #return self.name > another_product.name
+        #return self.price > another_product.price
+        return self.name > another_product.name
     
 
 if __name__ == "__main__":
@@ -31,4 +31,4 @@ if __name__ == "__main__":
     #number2 = []
     #print(dir(number2))
 
-    print(dir(Product))
+    #print(dir(Product))
