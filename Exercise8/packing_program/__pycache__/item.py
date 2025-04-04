@@ -1,3 +1,9 @@
+"""
+Refactor the code, in the exercise sheet there is a list of possible problems that you can find from this program. 
+Some of the problems are overlapping, so you might fix two problems when you are fixing the code.
+
+Hint. start by utilizing inheritance and method overriding, then continue with other parts of the code.
+"""
 class Item:
     def __init__(
             self,
